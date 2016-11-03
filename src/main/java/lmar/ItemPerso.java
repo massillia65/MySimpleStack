@@ -8,5 +8,6 @@ public class ItemPerso extends Item {
     public ItemPerso(Object valeur)
     {
         super(valeur);
+        System.out.println("Nouvelle Item créé");
     }
 }
