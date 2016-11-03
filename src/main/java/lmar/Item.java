@@ -5,18 +5,19 @@ package lmar;
  */
 public class Item {
 
-    private int valeur;
+    private Object valeur;
 
-    public Item(int valeur)
+    public Item(Object valeur)
     {
-        this.valeur = valeur;
+        setValeur(valeur);
     }
 
-    public int getValeur() {
+    public Object getValeur()
+    {
         return valeur;
     }
 
-    public void setValeur(int valeur) {
+    public void setValeur(Object valeur) {
         this.valeur = valeur;
     }
 }
