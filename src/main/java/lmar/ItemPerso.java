@@ -10,4 +10,10 @@ public class ItemPerso extends Item {
         super(valeur);
         System.out.println("Nouvelle Item créé");
     }
+
+    public Object getValeur()
+    {
+        System.out.println("voilà ta valeur");
+        return valeur;
+    }
 }

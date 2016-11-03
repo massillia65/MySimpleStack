@@ -5,7 +5,7 @@ package lmar;
  */
 public class Item {
 
-    private Object valeur;
+    protected Object valeur;
 
     public Item(Object valeur)
     {
